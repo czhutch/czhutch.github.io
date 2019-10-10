@@ -1,8 +1,37 @@
-     @import url('https://fonts.googleapis.com/css?family=Baloo|Baloo+Bhaina|Cabin+Sketch|Kristi|Magra|Michroma|Questrial|Rajdhani|Syncopate&display=swap');
+    /** {
+      margin: 0;
+      padding: 0;
+    }*/
+
+    @import url('https://fonts.googleapis.com/css?family=Baloo|Baloo+Bhaina|Cabin+Sketch|Kristi|Magra|Michroma|Questrial|Rajdhani|Syncopate&display=swap');
       body {
         font-family: Arial, Helvetica, sans-serif;
       }
       h1 { font-family: 'Questrial', sans-serif; }
       h2 { font-family: 'Baloo Bhaina', sans-serif; }
       h4 { font-variant-caps: all-small-caps; }
+
+    .header {
+      display: flex;
+      flex-direction: column;
+      align-content: center;
+      
+    }
+
+    .experience {
+      flex-direction: row;
+      width: 100em;      
+    }
+
+    .education {
+      flex-direction: row;
+      width: 100em;
+    }
+
+    .references {
+      display: flex;
+      align-items: center;
+    }
+  
+    
     
